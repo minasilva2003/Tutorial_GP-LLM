@@ -1,0 +1,4 @@
+{"generation":0,"rank":0,"solution":"1 + x0 * 0","test_fitness":-506.6499938965,"train_fitness":-278.2}
+{"generation":0,"rank":1,"solution":"1 * x0 - x1 + 0","test_fitness":-558.45,"train_fitness":-328.4}
+{"generation":1,"rank":0,"solution":"1 + x0 * 0","test_fitness":-506.6499938965,"train_fitness":-278.2}
+{"generation":1,"rank":1,"solution":"1 + x0 * 0","test_fitness":-506.6499938965,"train_fitness":-278.2}

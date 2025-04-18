@@ -1,0 +1,71 @@
+{
+ "fitness_function": {
+  "name": "alfa_ec_llm.problem_environments.symbolic_regression.SymbolicRegressionGP",
+  "fitness_cases_file": "tests/data/number_io_cases.csv",
+  "test_train_split": 0.5,
+  "arities": {
+   "+": 2,
+   "*": 2,
+   "/": 2,
+   "-": 2,
+   "max": 2,
+   "min": 2,
+   "abs": 2,
+   "pow": 2,
+   "x0": 0,
+   "x1": 0,
+   "0.0": 0,
+   "1.0": 0
+  },
+  "constants": [
+   0.0,
+   1.0
+  ]
+ },
+ "population_size": 100,
+ "max_depth": 5,
+ "elite_size": 1,
+ "generations": 2000,
+ "tournament_size": 5,
+ "seed": 1,
+ "crossover_probability": 0.8,
+ "mutation_probability": 0.5,
+ "output_dir": "results_gp",
+ "algorithm": "tutorial_gp",
+ "symbols": {
+  "arities": {
+   "+": 2,
+   "*": 2,
+   "/": 2,
+   "-": 2,
+   "max": 2,
+   "min": 2,
+   "abs": 2,
+   "pow": 2,
+   "x0": 0,
+   "x1": 0,
+   "0.0": 0,
+   "1.0": 0
+  },
+  "terminals": [
+   "x0",
+   "x1",
+   "0.0",
+   "1.0"
+  ],
+  "functions": [
+   "+",
+   "*",
+   "/",
+   "-",
+   "max",
+   "min",
+   "abs",
+   "pow"
+  ]
+ },
+ "xo_attempts": 7745349,
+ "xo_max_cnt": 53964,
+ "mu_attempts": 115042,
+ "mu_identical": 0
+}

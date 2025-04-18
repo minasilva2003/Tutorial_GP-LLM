@@ -483,7 +483,10 @@ class TutorialGP(EvolutionaryAlgorithm):
         """
         seed = param["seed"]
         # Set random seed if not 0 is passed in as the seed
-        if seed != 0:
+
+        if seed == -1:
+            seed = int(time.time())
+        elif seed != 0:
             random.seed(seed)
 
         logging.info(f"Setting random seed: {param['seed']} {random.random():.5f}")

@@ -203,7 +203,29 @@ class SymbolicRegressionGPInterpreter:
                 denominator = 1
 
             return numerator / denominator
-
+        
+        elif symbol == "max":
+            return max(self.evaluate(node[1], case), self.evaluate(node[2], case))
+        elif symbol == "min":
+            return min(self.evaluate(node[1], case), self.evaluate(node[2], case))
+        elif symbol == "abs":
+            return abs(self.evaluate(node[1], case))
+        elif symbol == "pow":
+            base = self.evaluate(node[1], case)
+            exponent = self.evaluate(node[2], case)
+            # Protected pow: avoid invalid operations
+            if base == 0.0 and exponent < 0:
+                return 1  # Return a safe default value
+            if base < 0 and exponent != int(exponent):
+                return 1  # Return a safe default value
+            try:
+                result = base ** exponent
+                # Check for overflow
+                if abs(result) > 1e308:  # Threshold for floating-point overflow
+                    return 1e308 if result > 0 else -1e308
+                return result
+            except OverflowError:
+                return 1e308 if base > 0 else -1e308
         elif symbol.startswith("x"):
             # Get the variable value
             return case[int(symbol[1:])]
