@@ -1,0 +1,1000 @@
+{"generation":0,"rank":0,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":0,"rank":1,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":0,"rank":2,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":0,"rank":3,"solution":"abs(x0 - x1) + max(0, 1) * min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":0,"rank":4,"solution":"abs(x0 - x1) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":0,"rank":5,"solution":"abs(x1 - x0) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":0,"rank":6,"solution":"abs(x0 - x1) * max(0, min(1, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":0,"rank":7,"solution":"abs(x0 - x1) * max(0, 1) + min(1, x1)","test_fitness":-5713.6601661261,"train_fitness":-4042.8268765228}
+{"generation":0,"rank":8,"solution":"abs(5 - 3) * max(x0, x1) + min(0, 1)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":0,"rank":9,"solution":"abs(max(x0, x1) - min(0, 1))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":0,"rank":10,"solution":"abs(max(x0, x1) - min(0, 1) * x1)","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":0,"rank":11,"solution":"abs(max(x0, x1) - min(0, 1) * x0)","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":0,"rank":12,"solution":"abs(max(x0, x1) - min(1, abs(x0 - x1)))","test_fitness":-1463.6297591188,"train_fitness":-5020.5887491228}
+{"generation":0,"rank":13,"solution":"max(abs(x0*0), min(x1-1, x0+1))","test_fitness":-548.25,"train_fitness":-5046.3190628382}
+{"generation":0,"rank":14,"solution":"abs(x0 - x1) * max(0, min(x0, x1))","test_fitness":-548.25,"train_fitness":-5062.9929358276}
+{"generation":0,"rank":15,"solution":"min(abs(x0 * x1), max(0, 1))","test_fitness":-506.6499938965,"train_fitness":-5112.9588843978}
+{"generation":0,"rank":16,"solution":"abs(x0 - 1) + min(x1, 0)","test_fitness":-2836.5730188304,"train_fitness":-5288.2015213764}
+{"generation":0,"rank":17,"solution":"abs(x0 - max(1, x1))","test_fitness":-5874.5532831625,"train_fitness":-7416.0623706317}
+{"generation":0,"rank":18,"solution":"abs(x0 - 1) + max(0, x1)","test_fitness":-5935.041516125,"train_fitness":-7423.0623706317}
+{"generation":0,"rank":19,"solution":"max(abs(x0 - x1), 0)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":20,"solution":"abs( max(x0, x1) - min(x0, x1) )","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":21,"solution":"abs(x0 - x1) * max(0, 1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":22,"solution":"max(abs(x1 - x0), min(x1 * 0, 1) - 1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":23,"solution":"abs(x0 - x1) * max(1, min(x0, x1))","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":24,"solution":"abs(max(x0, x1) - min(x0, x1))","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":25,"solution":"abs(x0 - x1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":26,"solution":"abs(x0 - x1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":27,"solution":"abs(x1 - x0) * max(1, min(x0, x1))","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":28,"solution":"max(abs(x0 - x1), 1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":29,"solution":"abs(x0 - x1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":30,"solution":"abs(x0 - x1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":31,"solution":"max(abs(x1 - x0), 0)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":32,"solution":"abs(x0 - x1) + max(0, min(x0, x1))","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":33,"solution":"abs(x0 - x1) * max(0, 1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":34,"solution":"abs(x0 - x1) * max(0, 1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":35,"solution":"abs(x0 - x1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":36,"solution":"abs(x0 - x1) + min(0, max(1, x1 * x0))","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":37,"solution":"max(abs(x1 - x0), 0)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":38,"solution":"abs(max(x0, x1) - min(x0, x1))","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":39,"solution":"abs(x0 - x1) + min(0, 1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":40,"solution":"abs(x0 - x1) + min(0,1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":41,"solution":"max(abs(x0 - x1), 0)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":42,"solution":"abs(x0 - max(1, 0) * x1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":0,"rank":43,"solution":"abs(x0 - x1) + min(1, max(0, x1))","test_fitness":-10628.8238971478,"train_fitness":-7672.8465516756}
+{"generation":0,"rank":44,"solution":"abs(x0 - min(1, x1)) + max(x1, 0)","test_fitness":-10628.8238971478,"train_fitness":-7672.8465516756}
+{"generation":0,"rank":45,"solution":"abs(x1 - 0)","test_fitness":-2691.60368344,"train_fitness":-7709.0356137488}
+{"generation":0,"rank":46,"solution":"abs(x0 - x1) + max(0, min(1, x0 * x1))","test_fitness":-10612.4540579649,"train_fitness":-7773.082515656}
+{"generation":0,"rank":47,"solution":"abs(x1 - min(0, x0) * max(1, x0))","test_fitness":-6672.9749861805,"train_fitness":-7855.1581969693}
+{"generation":0,"rank":48,"solution":"abs(x1 - min(0, x0) + 1)","test_fitness":-6693.9393031523,"train_fitness":-7864.8908563168}
+{"generation":0,"rank":49,"solution":"abs(max(0, x0) - min(x1, 1)) + x0","test_fitness":-17664.680608957,"train_fitness":-7898.1816847005}
+{"generation":0,"rank":50,"solution":"abs(x0 - min(1, x1) * 0)","test_fitness":-2063.25,"train_fitness":-8302.9031930994}
+{"generation":0,"rank":51,"solution":"abs(x0 - min(0, 1))","test_fitness":-2063.25,"train_fitness":-8302.9031930994}
+{"generation":0,"rank":52,"solution":"abs(x0 - 1) + min(1, x1 * 0)","test_fitness":-2076.25,"train_fitness":-8371.0638920081}
+{"generation":0,"rank":53,"solution":"abs(x0 - min(1, x1))","test_fitness":-6770.0323810228,"train_fitness":-8620.848073052}
+{"generation":0,"rank":54,"solution":"abs(x0 - min(1, x1) + 0)","test_fitness":-6770.0323810228,"train_fitness":-8620.848073052}
+{"generation":0,"rank":55,"solution":"abs(max(x0, 1) - min(x1, 0))","test_fitness":-6225.9607648076,"train_fitness":-8899.4630309826}
+{"generation":0,"rank":56,"solution":"abs(x0) + min(0, x1) - max(1, x1)","test_fitness":-2517.6493456219,"train_fitness":-9410.8839716297}
+{"generation":0,"rank":57,"solution":"abs(x0) + min(1, x1) - max(0, x1)","test_fitness":-2469.8371966688,"train_fitness":-9433.5533813685}
+{"generation":0,"rank":58,"solution":"abs(x0 - x1) + max(0, x0)","test_fitness":-17647.8963421902,"train_fitness":-9444.9349063819}
+{"generation":0,"rank":59,"solution":"abs(x0 + x1) * min(1, max(0, x0 - x1))","test_fitness":-1827.309851975,"train_fitness":-9986.777667198}
+{"generation":0,"rank":60,"solution":"abs(x0 - x1) + max(x0, x1)","test_fitness":-24644.0954250115,"train_fitness":-10072.8121418878}
+{"generation":0,"rank":61,"solution":"abs(min(x0, x1) + max(0, 1) * 0 - 1)","test_fitness":-3339.0596073494,"train_fitness":-11168.0254980568}
+{"generation":0,"rank":62,"solution":"abs(x0 - x1) * max(0, 1) - min(x0, x1)","test_fitness":-31352.3246265553,"train_fitness":-17248.1547412701}
+{"generation":0,"rank":63,"solution":"abs(x0 - x1) + max(x0, x1) - min(x0, x1)","test_fitness":-51529.9039180561,"train_fitness":-19408.5984289168}
+{"generation":0,"rank":64,"solution":"max(2*x0, abs(-3*x1) + min(0, x1))","test_fitness":-22292.8664193022,"train_fitness":-21634.0430335722}
+{"generation":0,"rank":65,"solution":"abs(3*x0 - min(5, x1) + max(0, x0) - 1)","test_fitness":-56051.0574163884,"train_fitness":-30193.2972828358}
+{"generation":0,"rank":66,"solution":"abs(3*x0 - max(0, x1) + min(1, x0))","test_fitness":-64496.9221680571,"train_fitness":-37319.9511885921}
+{"generation":0,"rank":67,"solution":"abs(x0 - x1) + min(0, x1) * max(1, x0)","test_fitness":-9769485.7012630701,"train_fitness":-125416.9425658245}
+{"generation":0,"rank":68,"solution":"abs(x1 - min(0, x0) + max(1, x1) * x0)","test_fitness":-14137288.3689988516,"train_fitness":-218083.0519411915}
+{"generation":0,"rank":69,"solution":"abs(x0) * max(0, x1) + min(x0, 1)","test_fitness":-14453843.8925862703,"train_fitness":-243069.6661139023}
+{"generation":0,"rank":70,"solution":"abs(x0 * max(1, x1) + min(x1, 0) - x0)","test_fitness":-14453741.9992815107,"train_fitness":-249040.984352714}
+{"generation":0,"rank":71,"solution":"abs(-x0) * max(1, x1) + min(0, x1)","test_fitness":-14769585.8488337602,"train_fitness":-250792.215561372}
+{"generation":0,"rank":72,"solution":"abs(x0 - x1) + max(0, x1) * min(1, x0)","test_fitness":-14389832.4195635226,"train_fitness":-268137.2945996726}
+{"generation":0,"rank":73,"solution":"abs(x1 - min(x0, 1) * max(0, x1))","test_fitness":-15092039.0396270212,"train_fitness":-284992.8466581677}
+{"generation":0,"rank":74,"solution":"abs(x1 - min(0, x0) * max(1, x1))","test_fitness":-15092215.3546348009,"train_fitness":-285052.2692413881}
+{"generation":0,"rank":75,"solution":"abs(x0 - max(0, x1)) * min(1, x1)","test_fitness":-10468609.4451077525,"train_fitness":-924597.0989226267}
+{"generation":0,"rank":76,"solution":"abs(1 + max(0, -x1) * min(x0, 1))","test_fitness":-183492.4694332384,"train_fitness":-944080.2855257211}
+{"generation":0,"rank":77,"solution":"abs(x0 - x1) + max(0, x0 * x1)","test_fitness":-231306.2279034214,"train_fitness":-971206.4090106997}
+{"generation":0,"rank":78,"solution":"abs(x0 * min(1, x1) - max(0, x1) + x0)","test_fitness":-10055338.3992188722,"train_fitness":-1037430.7121612811}
+{"generation":0,"rank":79,"solution":"abs(x0 * min(x1, 1) + max(0, x1) - 1)","test_fitness":-10315536.6026576459,"train_fitness":-1088509.9036722365}
+{"generation":0,"rank":80,"solution":"abs(x0 * min(1, x1) - max(0, x1))","test_fitness":-10317145.8062083833,"train_fitness":-1089278.0057452419}
+{"generation":0,"rank":81,"solution":"abs(x1 - max(x0, 1) + min(0, x0) * x1)","test_fitness":-14615865.1073148753,"train_fitness":-1108976.5017506336}
+{"generation":0,"rank":82,"solution":"abs(x0 * min(1, x1) + max(0, x1) - x0)","test_fitness":-10587928.0131978933,"train_fitness":-1145215.499329203}
+{"generation":0,"rank":83,"solution":"abs(x0 * min(1, x1) + max(0, x1) - x0)","test_fitness":-10587928.0131978933,"train_fitness":-1145215.499329203}
+{"generation":0,"rank":84,"solution":"abs(x0) * (x1 - min(0, 1))","test_fitness":-25231554.8547723964,"train_fitness":-1171145.7144839987}
+{"generation":0,"rank":85,"solution":"x0 * abs(x1 - 1) - min(x0, abs(x1))","test_fitness":-24726791.6164847426,"train_fitness":-1218273.1843789667}
+{"generation":0,"rank":86,"solution":"abs(min(1, x0) * x1 - max(0, x1))","test_fitness":-15273730.0692828838,"train_fitness":-1221113.9214343857}
+{"generation":0,"rank":87,"solution":"abs(x0 * x1 - max(0, 1) + min(1, x1))","test_fitness":-25312554.5939372294,"train_fitness":-1299955.2819407056}
+{"generation":0,"rank":88,"solution":"abs(x0 * x1 - max(0, x0) + min(1, x1))","test_fitness":-25560339.6788867302,"train_fitness":-1316631.3490471938}
+{"generation":0,"rank":89,"solution":"abs(x0 * x1 - max(0, min(x0, x1)))","test_fitness":-25080091.2158730216,"train_fitness":-1335826.621306614}
+{"generation":0,"rank":90,"solution":"abs(x1 * x0 - max(1, x1))","test_fitness":-25405340.9490927085,"train_fitness":-1365822.4147166554}
+{"generation":0,"rank":91,"solution":"abs(x0 * (1 - x1) + max(0, x1) - min(x0, abs(-1)))","test_fitness":-25650213.2928971536,"train_fitness":-1382060.9217780617}
+{"generation":0,"rank":92,"solution":"abs(x0 * (x1 - max(0, min(1, x0 + x1)))) - x1","test_fitness":-25062890.1803449802,"train_fitness":-1382129.4693351355}
+{"generation":0,"rank":93,"solution":"abs(x0 - min(1, x1) * x1)","test_fitness":-21492372.634547092,"train_fitness":-3786539.5016462482}
+{"generation":0,"rank":94,"solution":"abs(x0 - x1) * min(x0, x1) + max(0, 1)","test_fitness":-116363264.9217743129,"train_fitness":-4649435.9033925124}
+{"generation":0,"rank":95,"solution":"abs(x0 - x1) * max(0, x1 - x0)","test_fitness":-243263000.0427179933,"train_fitness":-23296014.8512957916}
+{"generation":0,"rank":96,"solution":"abs(x0 - x1) * max(x0, x1) + min(x0, x1)","test_fitness":-99969888.2967735678,"train_fitness":-27053103.8480648324}
+{"generation":0,"rank":97,"solution":"abs(x0 - x1) * max(x0, x1) + min(x0, x1)","test_fitness":-99969888.2967735678,"train_fitness":-27053103.8480648324}
+{"generation":0,"rank":98,"solution":"abs(x1 - x0) * max(x1, x0)","test_fitness":-101065582.1479587555,"train_fitness":-27099321.5544183627}
+{"generation":0,"rank":99,"solution":"abs(x0 - x1) * max(x0, x1)","test_fitness":-101065582.1479587555,"train_fitness":-27099321.5544183627}
+{"generation":1,"rank":0,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":1,"rank":1,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":2,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":3,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":4,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":5,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":6,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":7,"solution":"abs(x1 - x0) + min(x1, x0)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":8,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":9,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":10,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":11,"solution":"abs(x0 - x1) + max(0, 1) * min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":12,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":13,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":14,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":15,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":1,"rank":16,"solution":"abs(x0 - x1) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":1,"rank":17,"solution":"abs(x0 - x1) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":1,"rank":18,"solution":"abs(x0 - x1) * min(1, max(0, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":1,"rank":19,"solution":"abs(x0 - x1) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":1,"rank":20,"solution":"abs(x1 - x0) * min(1, max(0, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":1,"rank":21,"solution":"abs(x1 - x0) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":1,"rank":22,"solution":"abs(x0 - x1) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":1,"rank":23,"solution":"abs(x0 - x1) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":1,"rank":24,"solution":"abs(x0 - x1) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":1,"rank":25,"solution":"abs(x0 - x1) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":1,"rank":26,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":1,"rank":27,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":1,"rank":28,"solution":"abs(x0 - x1) * max(0, min(1, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":1,"rank":29,"solution":"abs(x0 - x1) * max(0, min(1, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":1,"rank":30,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":1,"rank":31,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":1,"rank":32,"solution":"abs(x0 - x1) * max(0, min(1, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":1,"rank":33,"solution":"abs(x0 - x1) * max(0, min(1, x1)) + max(0, min(1, x0 * x1))","test_fitness":-4710.5532831625,"train_fitness":-3907.5636252955}
+{"generation":1,"rank":34,"solution":"abs(x0 - x1) * max(0, 1) + min(1, x1)","test_fitness":-5713.6601661261,"train_fitness":-4042.8268765228}
+{"generation":1,"rank":35,"solution":"abs(x0 * min(0, 1) - max(x0, x1))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":1,"rank":36,"solution":"abs(max(x0, x1) - min(0, 1))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":1,"rank":37,"solution":"abs(max(x0, x1) - min(0, 1))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":1,"rank":38,"solution":"abs(max(x0, x1) - min(0, 1))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":1,"rank":39,"solution":"abs(max(x0, x1) - min(0, 1) * x0)","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":1,"rank":40,"solution":"abs(max(x0, x1) - min(0, 1) * x1)","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":1,"rank":41,"solution":"abs(max(x0, x1) - min(0, 1) * x0)","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":1,"rank":42,"solution":"abs(max(x0, x1) - min(0, 1) * x0)","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":1,"rank":43,"solution":"abs(max(x0, x1) - min(0, 1))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":1,"rank":44,"solution":"abs(max(x0, x1) - min(0, 1) * x1)","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":1,"rank":45,"solution":"abs(max(x0, x1) - (min(0, 1) * x0))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":1,"rank":46,"solution":"abs(max(x0, x1) - min(0, 1))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":1,"rank":47,"solution":"abs(max(x0, x1) - 1)","test_fitness":-1463.6297591188,"train_fitness":-5020.5887491228}
+{"generation":1,"rank":48,"solution":"max(abs(x0*0), min(x1-1, x0+1))","test_fitness":-548.25,"train_fitness":-5046.3190628382}
+{"generation":1,"rank":49,"solution":"max(abs(x0*0), min(x1-1, x0+1))","test_fitness":-548.25,"train_fitness":-5046.3190628382}
+{"generation":1,"rank":50,"solution":"max(abs(x0*0), min(x1-1, x0+1))","test_fitness":-548.25,"train_fitness":-5046.3190628382}
+{"generation":1,"rank":51,"solution":"abs(x0 - x1) - max(abs(x0 - x1), 1)","test_fitness":-548.25,"train_fitness":-5062.9929358276}
+{"generation":1,"rank":52,"solution":"abs(max(0, x0 - max(1, x1))","test_fitness":-548.25,"train_fitness":-5062.9929358276}
+{"generation":1,"rank":53,"solution":"abs(max(x0, x1) - min(x0, x1)","test_fitness":-548.25,"train_fitness":-5062.9929358276}
+{"generation":1,"rank":54,"solution":"0","test_fitness":-548.25,"train_fitness":-5062.9929358276}
+{"generation":1,"rank":55,"solution":"abs(max(max(x0, x1), min(0, 1) * x1)","test_fitness":-548.25,"train_fitness":-5062.9929358276}
+{"generation":1,"rank":56,"solution":"abs(x0 - x1) * min(max(0, x0), max(0, x1))","test_fitness":-548.25,"train_fitness":-5062.9929358276}
+{"generation":1,"rank":57,"solution":"min(abs(x0), abs(x1), 1)","test_fitness":-506.6499938965,"train_fitness":-5112.9588843978}
+{"generation":1,"rank":58,"solution":"abs(x0 - 1) + min(x1, 0)","test_fitness":-2836.5730188304,"train_fitness":-5288.2015213764}
+{"generation":1,"rank":59,"solution":"abs(max(x0, x1) - x0)","test_fitness":-5037.1478781346,"train_fitness":-5991.7032231691}
+{"generation":1,"rank":60,"solution":"max(0, x0 - x1 + min(1, max(0, x1)))","test_fitness":-6079.4377860507,"train_fitness":-6737.1362643341}
+{"generation":1,"rank":61,"solution":"abs(min(max(x0, x1), 1) - min(0, 1))","test_fitness":-425.5085049931,"train_fitness":-6815.2162634581}
+{"generation":1,"rank":62,"solution":"abs(x0 - x1) + min(0, max(1, x1 * x0)) - abs(max(x0, x1) - min(0, 1) * x1)","test_fitness":-2540.4746758436,"train_fitness":-7164.4187268734}
+{"generation":1,"rank":63,"solution":"abs(x0 - max(1, x1))","test_fitness":-5874.5532831625,"train_fitness":-7416.0623706317}
+{"generation":1,"rank":64,"solution":"abs(x0 - max(x1, 1))","test_fitness":-5874.5532831625,"train_fitness":-7416.0623706317}
+{"generation":1,"rank":65,"solution":"abs(x0 - max(1, x1))","test_fitness":-5874.5532831625,"train_fitness":-7416.0623706317}
+{"generation":1,"rank":66,"solution":"abs(x0 - max(1, x1))","test_fitness":-5874.5532831625,"train_fitness":-7416.0623706317}
+{"generation":1,"rank":67,"solution":"abs(x0 - 1) + max(0, x1)","test_fitness":-5935.041516125,"train_fitness":-7423.0623706317}
+{"generation":1,"rank":68,"solution":"abs(x0 - x1) + min(x0, x1) * max(0, min(1, x1))","test_fitness":-6763.2793692205,"train_fitness":-7579.1465516756}
+{"generation":1,"rank":69,"solution":"max(abs(x0 - x1), 0)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":1,"rank":70,"solution":"abs(x1 - x0)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":1,"rank":71,"solution":"abs(x0 - x1) + min(0, 1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":1,"rank":72,"solution":"abs(x1 - x0) + min(0, max(1, x1 * x0))","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":1,"rank":73,"solution":"abs(x0 - x1) * max(0, 1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":1,"rank":74,"solution":"abs(x0 - x1 - 0)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":1,"rank":75,"solution":"abs(x0 - x1) + min(0, 1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":1,"rank":76,"solution":"abs(x0 - x1) + min(0, 1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":1,"rank":77,"solution":"abs(x0 - max(1, 0) * x1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":1,"rank":78,"solution":"max(abs(x0*0), min(x1-1, x0+1)) + abs(x0 - x1)","test_fitness":-10568.3356641853,"train_fitness":-7665.9465516756}
+{"generation":1,"rank":79,"solution":"abs(x0 - x1) + max(abs(x0*0), min(x1-1, x0+1))","test_fitness":-10568.3356641853,"train_fitness":-7665.9465516756}
+{"generation":1,"rank":80,"solution":"abs(min(1, x1) - x0) + max(0, x1)","test_fitness":-10628.8238971478,"train_fitness":-7672.8465516756}
+{"generation":1,"rank":81,"solution":"abs(x0 - x1) + max(0, min(1, x1))","test_fitness":-10628.8238971478,"train_fitness":-7672.8465516756}
+{"generation":1,"rank":82,"solution":"abs(x0 - x1) + max(0, min(1, x0 * x1))","test_fitness":-10612.4540579649,"train_fitness":-7773.082515656}
+{"generation":1,"rank":83,"solution":"abs(x0 - x1) + max(0, min(1, x0 * x1))","test_fitness":-10612.4540579649,"train_fitness":-7773.082515656}
+{"generation":1,"rank":84,"solution":"abs(abs(x1 - min(0, x0)) + 1)","test_fitness":-6808.0621373526,"train_fitness":-7982.6255376217}
+{"generation":1,"rank":85,"solution":"abs(x0 - 1) + min(1, x1 * 0)","test_fitness":-2076.25,"train_fitness":-8371.0638920081}
+{"generation":1,"rank":86,"solution":"abs(x0 - 1)","test_fitness":-2076.25,"train_fitness":-8371.0638920081}
+{"generation":1,"rank":87,"solution":"abs(x0 - 1) + min(1, x1 * 0)","test_fitness":-2076.25,"train_fitness":-8371.0638920081}
+{"generation":1,"rank":88,"solution":"max(abs(x0 - 1), abs(x0 - x1))","test_fitness":-10765.3410692132,"train_fitness":-8721.1507358176}
+{"generation":1,"rank":89,"solution":"abs(x0) + min(1, x1) - max(0, x1)","test_fitness":-2469.8371966688,"train_fitness":-9433.5533813685}
+{"generation":1,"rank":90,"solution":"abs(x0 - x1) + abs(max(x0, x1) - min(0, 1) * x0)","test_fitness":-25338.1189394171,"train_fitness":-13967.2931671641}
+{"generation":1,"rank":91,"solution":"abs(max(x0, x1) - min(0, 1) * x0) + max(abs(x0 - x1), 0)","test_fitness":-25338.1189394171,"train_fitness":-13967.2931671641}
+{"generation":1,"rank":92,"solution":"abs(x0 - x1) + min(0, max(1, x1 * x0)) + abs(max(x0, x1) - min(0, 1) * x1)","test_fitness":-25338.1189394171,"train_fitness":-13967.2931671641}
+{"generation":1,"rank":93,"solution":"abs(x0 - x1) + max(abs(x0 - x1), 1)","test_fitness":-51529.9039180561,"train_fitness":-19408.5984289168}
+{"generation":1,"rank":94,"solution":"2*abs(x0 - x1)","test_fitness":-51529.9039180561,"train_fitness":-19408.5984289168}
+{"generation":1,"rank":95,"solution":"abs(x0 - x1) + abs(x0 - x1)","test_fitness":-51529.9039180561,"train_fitness":-19408.5984289168}
+{"generation":1,"rank":96,"solution":"abs(x0 - x1) * min(1, max(x0, x1))","test_fitness":-160897.0612795355,"train_fitness":-127024.2799693201}
+{"generation":1,"rank":97,"solution":"abs(x0 - x1) + max(x0, x1) * min(x0, x1)","test_fitness":-24370465.9997648485,"train_fitness":-1351772.650071149}
+{"generation":1,"rank":98,"solution":"abs(x0 - x1) * min(1, x0 + x1)","test_fitness":-19055154.5545834526,"train_fitness":-4025425.2565522464}
+{"generation":1,"rank":99,"solution":"min(x0, x1) * abs(x0 - x1) + max(0, min(1, x1))","test_fitness":-116374498.8062514514,"train_fitness":-4652568.9932186725}
+{"generation":2,"rank":0,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":2,"rank":1,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":2,"rank":2,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":2,"rank":3,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":2,"rank":4,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":2,"rank":5,"solution":"abs(x0 - x1) * min(1, max(0, x1)) + min(x0, x1)","test_fitness":-7143.9700393945,"train_fitness":-1285.4342260353}
+{"generation":2,"rank":6,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":7,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":8,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":9,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":10,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":11,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":12,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":13,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":14,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":15,"solution":"abs(x0 - x1) + max(0, 1) * min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":16,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":17,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":18,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":19,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":20,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":21,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":22,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":23,"solution":"abs(x1 - x0) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":24,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":25,"solution":"abs(x1 - x0) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":26,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":27,"solution":"abs(x0 - x1) + min(x1, x0)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":28,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":29,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":30,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":31,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":32,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":33,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":34,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":35,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":36,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":37,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":38,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":39,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":40,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":41,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":42,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":43,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":44,"solution":"abs(x1 - x0) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":45,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":46,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":47,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":48,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":49,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":50,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":51,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":52,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":53,"solution":"abs(x1 - x0) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":54,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":2,"rank":55,"solution":"abs(x0 - x1) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":2,"rank":56,"solution":"abs(x0 - x1) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":2,"rank":57,"solution":"abs(x0 - x1) * min(1, max(0, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":2,"rank":58,"solution":"abs(x0 - x1) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":2,"rank":59,"solution":"abs(x0 - x1) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":2,"rank":60,"solution":"abs(x0 - x1) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":2,"rank":61,"solution":"abs(x0 - x1) * min(1, max(0, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":2,"rank":62,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":2,"rank":63,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":2,"rank":64,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":2,"rank":65,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":2,"rank":66,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":2,"rank":67,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":2,"rank":68,"solution":"abs(x0 - x1) * min(max(0, x1), 1)","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":2,"rank":69,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":2,"rank":70,"solution":"abs(x1 - x0) * max(0, min(1, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":2,"rank":71,"solution":"abs(x0 - x1) * min(1, max(x1, 0))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":2,"rank":72,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":2,"rank":73,"solution":"abs(max(x0, x1) - min(0, 1))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":2,"rank":74,"solution":"abs(max(x0, x1) - x0 * min(0, 1))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":2,"rank":75,"solution":"abs(max(x0, x1) - x0 * min(0, 1))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":2,"rank":76,"solution":"abs(max(x0, x1) - min(x0, x1) + min(x0, x1))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":2,"rank":77,"solution":"abs(max(x0, x1) - (min(0, 1) * x0))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":2,"rank":78,"solution":"abs(max(x0, x1) - 1)","test_fitness":-1463.6297591188,"train_fitness":-5020.5887491228}
+{"generation":2,"rank":79,"solution":"max(abs(x0*0), min(x1-1, x0+1))","test_fitness":-548.25,"train_fitness":-5046.3190628382}
+{"generation":2,"rank":80,"solution":"abs(max(0, x0 - max(1, x1))","test_fitness":-548.25,"train_fitness":-5062.9929358276}
+{"generation":2,"rank":81,"solution":"abs(max(x0, x1) - x0)","test_fitness":-5037.1478781346,"train_fitness":-5991.7032231691}
+{"generation":2,"rank":82,"solution":"max(0, x0 - x1 - min(1, -max(0, x1)))","test_fitness":-6079.4377860507,"train_fitness":-6737.1362643341}
+{"generation":2,"rank":83,"solution":"max(0, x0 - x1 + min(1, max(0, x1)))","test_fitness":-6079.4377860507,"train_fitness":-6737.1362643341}
+{"generation":2,"rank":84,"solution":"abs(x0 - x1) + min(x0, x1) * min(1, max(0, x0 + x1))","test_fitness":-6066.7456928128,"train_fitness":-7566.1474985688}
+{"generation":2,"rank":85,"solution":"abs(x0 - x1) + min(x0, x1) * min(1, max(0, x1))","test_fitness":-6763.2793692205,"train_fitness":-7579.1465516756}
+{"generation":2,"rank":86,"solution":"abs(x0 - x1) + min(0, 1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":2,"rank":87,"solution":"abs(x0 - x1) + min(0, 1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":2,"rank":88,"solution":"abs(x1 - x0) + max(abs(0*x0), min(x1-1, x0+1))","test_fitness":-10568.3356641853,"train_fitness":-7665.9465516756}
+{"generation":2,"rank":89,"solution":"abs(x1 - min(0, 1))","test_fitness":-2691.60368344,"train_fitness":-7709.0356137488}
+{"generation":2,"rank":90,"solution":"abs(x0 - x1) + abs(x0 - x1) + min(x0, x1)","test_fitness":-24644.0954250115,"train_fitness":-10072.8121418878}
+{"generation":2,"rank":91,"solution":"abs(x0 - x1) * 2 + min(x0, x1)","test_fitness":-24644.0954250115,"train_fitness":-10072.8121418878}
+{"generation":2,"rank":92,"solution":"abs((x0 - x1) + min(x0, x1))","test_fitness":-15476.6278130078,"train_fitness":-11015.2331631256}
+{"generation":2,"rank":93,"solution":"abs((x0 - x1) + min(x0, x1))","test_fitness":-15476.6278130078,"train_fitness":-11015.2331631256}
+{"generation":2,"rank":94,"solution":"abs(x0 - x1) + max(0, x1) * min(x0, x1)","test_fitness":-14389832.4195635226,"train_fitness":-268137.2945996726}
+{"generation":2,"rank":95,"solution":"abs(x0 * x1 + min(x0, x1))","test_fitness":-25612468.2631457634,"train_fitness":-1299377.421419665}
+{"generation":2,"rank":96,"solution":"abs(abs(x0 - x1) + (x0 * x1))","test_fitness":-23994141.0829320848,"train_fitness":-1300241.1277335354}
+{"generation":2,"rank":97,"solution":"abs(x0 - x1) * min(max(0, 1), x0 + x1)","test_fitness":-19055154.5545834526,"train_fitness":-4025425.2565522464}
+{"generation":2,"rank":98,"solution":"abs(x0 - x1) * min(1, x0 + x1)","test_fitness":-19055154.5545834526,"train_fitness":-4025425.2565522464}
+{"generation":2,"rank":99,"solution":"abs(x0 - x1) * min(1, max(0, x0 + x1) + min(x0, x1))","test_fitness":-109812333.1621960402,"train_fitness":-4185859.6459605866}
+{"generation":3,"rank":0,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":3,"rank":1,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":3,"rank":2,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":3,"rank":3,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":3,"rank":4,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":5,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":6,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":7,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":8,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":9,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":10,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":11,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":12,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":13,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":14,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":15,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":16,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":17,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":18,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":19,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":3,"rank":20,"solution":"min(x0, x1) + abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-7143.9700393945,"train_fitness":-1285.4342260353}
+{"generation":3,"rank":21,"solution":"abs(x0 - x1) * min(1, max(0, x1)) + min(x0, x1)","test_fitness":-7143.9700393945,"train_fitness":-1285.4342260353}
+{"generation":3,"rank":22,"solution":"abs(x1 - x0) * min(1, max(0, x1)) + min(x0, x1)","test_fitness":-7143.9700393945,"train_fitness":-1285.4342260353}
+{"generation":3,"rank":23,"solution":"abs(x0 - x1) * min(1, max(0, x1)) + min(x0, x1)","test_fitness":-7143.9700393945,"train_fitness":-1285.4342260353}
+{"generation":3,"rank":24,"solution":"abs(x0 - x1) * min(1, max(0, x1)) + min(x0, x1)","test_fitness":-7143.9700393945,"train_fitness":-1285.4342260353}
+{"generation":3,"rank":25,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":26,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":27,"solution":"abs(x1 - x0) + min(x1, x0)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":28,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":29,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":30,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":31,"solution":"min(abs(x0 - x1), max(x0, x1))","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":32,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":33,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":34,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":35,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":36,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":37,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":38,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":39,"solution":"abs(x0 - x1) + max(0, 1) * min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":40,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":41,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":42,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":43,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":44,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":45,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":46,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":47,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":48,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":49,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":50,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":51,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":52,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":53,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":54,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":55,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":56,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":57,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":58,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":59,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":60,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":61,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":62,"solution":"abs(x1 - x0) + max(0, 1) * min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":63,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":64,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":65,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":66,"solution":"abs(x0 - x1) + max(0, 1) * min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":67,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":68,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":69,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":70,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":71,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":72,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":73,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":74,"solution":"abs(x1 - x0) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":3,"rank":75,"solution":"abs(x0 - x1) + min(2*x0, max(0, 3*x1 - x0))","test_fitness":-7990.3336300323,"train_fitness":-2199.1035012622}
+{"generation":3,"rank":76,"solution":"abs(x0 - x1) * max(0, min(1, x0 + x1))","test_fitness":-5675.6386445313,"train_fitness":-3035.6727791951}
+{"generation":3,"rank":77,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":3,"rank":78,"solution":"abs(x1 - x0) * max(0, min(1, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":3,"rank":79,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":3,"rank":80,"solution":"abs(x0 - x1) * min(1, max(0, x1))","test_fitness":-4723.7532831625,"train_fitness":-3835.8719429202}
+{"generation":3,"rank":81,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1) + abs(x0 - x1)","test_fitness":-8251.2020330068,"train_fitness":-3868.5290780279}
+{"generation":3,"rank":82,"solution":"2 * abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":3,"rank":83,"solution":"2 * (abs(x0 - x1) + min(x0, x1))","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":3,"rank":84,"solution":"2*abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":3,"rank":85,"solution":"abs(abs(x0 - x1) + min(x0, x1))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":3,"rank":86,"solution":"abs(x1 - x0) + min(2*x0, 3*x1) + min(x0, x1)","test_fitness":-34090.8721640392,"train_fitness":-5220.5465516756}
+{"generation":3,"rank":87,"solution":"abs(x0 - x1) + min(x0, x1) + min(2*x0, 3*x1)","test_fitness":-34090.8721640392,"train_fitness":-5220.5465516756}
+{"generation":3,"rank":88,"solution":"abs(x1 - x0) + min(x0, x1) + min(2*x0, 3*x1)","test_fitness":-34090.8721640392,"train_fitness":-5220.5465516756}
+{"generation":3,"rank":89,"solution":"abs(x0 - x1) + min(0, 1)","test_fitness":-10568.3356641853,"train_fitness":-7665.8465516756}
+{"generation":3,"rank":90,"solution":"max(abs(x1 - x0), min(x1 * 0, 1) - 1) + max(0, min(1, x1))","test_fitness":-10628.8238971478,"train_fitness":-7672.8465516756}
+{"generation":3,"rank":91,"solution":"abs(x0) + max(2*x0, 3*x1) - abs(x1)","test_fitness":-18835.7166327738,"train_fitness":-8681.3845941323}
+{"generation":3,"rank":92,"solution":"2 * abs(x0 - x1) + min(x0, x1)","test_fitness":-24644.0954250115,"train_fitness":-10072.8121418878}
+{"generation":3,"rank":93,"solution":"2 * abs(x0 - x1) + min(x0, x1)","test_fitness":-24644.0954250115,"train_fitness":-10072.8121418878}
+{"generation":3,"rank":94,"solution":"abs(x0 - x1) * max(0, min(1, x1)) + max(abs(x1 - x0), 0)","test_fitness":-28570.4443641107,"train_fitness":-10442.7842501847}
+{"generation":3,"rank":95,"solution":"abs((x0 - x1) + min(x0, x1))","test_fitness":-15476.6278130078,"train_fitness":-11015.2331631256}
+{"generation":3,"rank":96,"solution":"abs(x0 - x1) * min(1, max(0, x1)) + min(x0, x1) + min(2 * x0, 3 * x1)","test_fitness":-71044.4040517314,"train_fitness":-12790.1952241234}
+{"generation":3,"rank":97,"solution":"3*(abs(x0 - x1) + min(x0, x1))","test_fitness":-24470.0706904545,"train_fitness":-13023.4554141607}
+{"generation":3,"rank":98,"solution":"abs(x0 - x1) + min(0, max(1, x0) * x1)","test_fitness":-9769485.7012630701,"train_fitness":-125416.9425658245}
+{"generation":3,"rank":99,"solution":"abs(x0 - x1) * (1 + min(0, x1))","test_fitness":-49765154.842444919,"train_fitness":-2324268.2903564023}
+{"generation":4,"rank":0,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":1,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":2,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":3,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":4,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":5,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":6,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":7,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":8,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":9,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":10,"solution":"abs(x0 - x1) + min(x0*2, x1*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":11,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":12,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":13,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":14,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":15,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":16,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":17,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":18,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":19,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":4,"rank":20,"solution":"abs(x1 - x0) + min(2*x1, 3*x0)","test_fitness":-12521.6415289105,"train_fitness":-830.4613905234}
+{"generation":4,"rank":21,"solution":"abs(x1 - x0) + min(2*x1, 3*x0)","test_fitness":-12521.6415289105,"train_fitness":-830.4613905234}
+{"generation":4,"rank":22,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":23,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":24,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":25,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":26,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":27,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":28,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":29,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":30,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":31,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":32,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":33,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":34,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":35,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":36,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":37,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":38,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":39,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":40,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":41,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":42,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":43,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":44,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":45,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":46,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":47,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":48,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":49,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":50,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":51,"solution":"abs(x1 - x0) + min(x1 * 3, x0 * 2)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":52,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":53,"solution":"abs((x0 * -1) + x1) + min((x0 * 2), (x1 * 3))","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":54,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":55,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":56,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":57,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":58,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":59,"solution":"abs(-(x1 - x0)) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":60,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":61,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":62,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":63,"solution":"abs(x1 - x0) + min(x1 * 3, x0 * 2)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":4,"rank":64,"solution":"abs(x0 - x1) * min(1, max(0, x1)) + min(x0, x1)","test_fitness":-7143.9700393945,"train_fitness":-1285.4342260353}
+{"generation":4,"rank":65,"solution":"abs(x0 - x1) * min(1, max(0, x1)) + min(x0, x1)","test_fitness":-7143.9700393945,"train_fitness":-1285.4342260353}
+{"generation":4,"rank":66,"solution":"abs(x0 - x1) + min(min(abs(x0 - x1), x0), x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":67,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":68,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":69,"solution":"abs(x1 - x0) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":70,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":71,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":72,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":73,"solution":"abs(x1 - x0) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":74,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":75,"solution":"abs(x1 - x0) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":76,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":77,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":78,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":79,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":80,"solution":"abs(x1 - x0) + min(x1, x0)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":81,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":82,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":83,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":84,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":85,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":86,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":4,"rank":87,"solution":"abs(x0 - x1) + min(abs(x0 - x1), x0) + min(x0, x1)","test_fitness":-7498.1880083883,"train_fitness":-1931.4200526687}
+{"generation":4,"rank":88,"solution":"abs(x0 - x1) + min(2*x0, max(0, 3*x1))","test_fitness":-7990.3336300323,"train_fitness":-2199.1035012622}
+{"generation":4,"rank":89,"solution":"abs(1) * min(1, max(0, x1)) + min(x0, x1)","test_fitness":-9803.1230511968,"train_fitness":-2864.0441002126}
+{"generation":4,"rank":90,"solution":"min(abs(x0 - x1), min(x0, x1))","test_fitness":-9857.9230511968,"train_fitness":-2900.0093953432}
+{"generation":4,"rank":91,"solution":"abs(x0 - x1) + min(2*x0, 3*x1) + abs(x0 - x1)","test_fitness":-8251.2020330068,"train_fitness":-3868.5290780279}
+{"generation":4,"rank":92,"solution":"abs(x0 - x1) + min(-x0, x1)","test_fitness":-12567.6111747529,"train_fitness":-4878.8223632935}
+{"generation":4,"rank":93,"solution":"abs(x0 - x1) + min(x0, x1) + min(2*x0, 3*x1)","test_fitness":-34090.8721640392,"train_fitness":-5220.5465516756}
+{"generation":4,"rank":94,"solution":"abs(x0 - x1) + min(2*x0, 3*x1) + min(x0, x1)","test_fitness":-34090.8721640392,"train_fitness":-5220.5465516756}
+{"generation":4,"rank":95,"solution":"2 * abs(x0 - x1) + min(x0, 3 * x1)","test_fitness":-15409.3619027531,"train_fitness":-6417.5662086573}
+{"generation":4,"rank":96,"solution":"abs((x0 - x1) + min(x0, x1))","test_fitness":-15476.6278130078,"train_fitness":-11015.2331631256}
+{"generation":4,"rank":97,"solution":"abs(x0 - x1) + min(max(2 * x0, 3 * x1), max(2 * x1, 3 * x0))","test_fitness":-45292.8393656674,"train_fitness":-17678.8657498016}
+{"generation":4,"rank":98,"solution":"abs(x0*2 - x1*3) + min(x0, x1)","test_fitness":-49318.4865002245,"train_fitness":-20496.5462976311}
+{"generation":4,"rank":99,"solution":"abs(x0 - x1) + min(4*x0, 6*x1)","test_fitness":-93875.7078300789,"train_fitness":-20882.1862067024}
+{"generation":5,"rank":0,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":1,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":2,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":3,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":4,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":5,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":6,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":7,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":8,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":9,"solution":"abs(x1 - x0) + 2*min(x1, x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":10,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":11,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":12,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":13,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":14,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":15,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":16,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":17,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":18,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":19,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":20,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":21,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":22,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":23,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":24,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":25,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":26,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":27,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":28,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":29,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":30,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":31,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":32,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":33,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":34,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":35,"solution":"abs(x0 - x1) + min(x0*2, x1*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":36,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":5,"rank":37,"solution":"abs(x0 - x1) + min(x0, 2*x1)","test_fitness":-3221.8013986568,"train_fitness":-815.1}
+{"generation":5,"rank":38,"solution":"abs(x0 - x1) + min(3*x0, 2*x1)","test_fitness":-12521.6415289105,"train_fitness":-830.4613905234}
+{"generation":5,"rank":39,"solution":"abs(x0 - x1) + min(3*x0, 2*x1)","test_fitness":-12521.6415289105,"train_fitness":-830.4613905234}
+{"generation":5,"rank":40,"solution":"abs(x0 - x1) + min(3*x0, 2*x1)","test_fitness":-12521.6415289105,"train_fitness":-830.4613905234}
+{"generation":5,"rank":41,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":42,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":43,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":44,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":45,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":46,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":47,"solution":"abs(x1 - x0) + min(x1 * 3, x0 * 2)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":48,"solution":"abs(-(x1 - x0)) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":49,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":50,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":51,"solution":"abs(x1 - x0) + min(x0*2, x1*3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":52,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":53,"solution":"abs((x0 * -1) + x1) + min((x0 * 2), (x1 * 3))","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":54,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":55,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":56,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":57,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":58,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":59,"solution":"abs(x1 - x0) + min(x1 * 3, x0 * 2)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":60,"solution":"abs(x1 - x0) + min(3*x1, 2*x0)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":61,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":62,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":63,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":64,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":65,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":66,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":67,"solution":"abs(x1 - x0) + min(x1 * 3, x0 * 2)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":68,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":69,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":70,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":71,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":72,"solution":"abs(x0 - x1) + min(2 * x0, 3 * x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":73,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":74,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":75,"solution":"abs(x1 - x0) + min(3*x1, 2*x0)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":76,"solution":"abs((x0 * -1) + x1) + min((x0 * 2), (x1 * 3))","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":5,"rank":77,"solution":"abs(x1 - x0) * min(1, max(0, x1)) + min(x0, x1)","test_fitness":-7143.9700393945,"train_fitness":-1285.4342260353}
+{"generation":5,"rank":78,"solution":"abs(x1 - x0) * min(1, max(0, x1)) + min(x0, x1)","test_fitness":-7143.9700393945,"train_fitness":-1285.4342260353}
+{"generation":5,"rank":79,"solution":"abs(x0 - (-1 * x1)) + min(2 * x0, 3 * x1)","test_fitness":-33720.9511081845,"train_fitness":-1458.875946842}
+{"generation":5,"rank":80,"solution":"abs(x0 - x1) + min(x0, x1) * 3","test_fitness":-20191.8962257518,"train_fitness":-1916.4616379189}
+{"generation":5,"rank":81,"solution":"abs(x1 - x0) + min(x0, x1) * 3","test_fitness":-20191.8962257518,"train_fitness":-1916.4616379189}
+{"generation":5,"rank":82,"solution":"abs(x0 - x1) + 3*min(x0, x1)","test_fitness":-20191.8962257518,"train_fitness":-1916.4616379189}
+{"generation":5,"rank":83,"solution":"abs(x0 - x1) + min(x0, x1) * 3","test_fitness":-20191.8962257518,"train_fitness":-1916.4616379189}
+{"generation":5,"rank":84,"solution":"abs(x0 - x1) + min(x0, x1) + 2 * min(x0, x1)","test_fitness":-20191.8962257518,"train_fitness":-1916.4616379189}
+{"generation":5,"rank":85,"solution":"abs(x0 - x1) + min(x0, x1) + min(0, 1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":5,"rank":86,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":5,"rank":87,"solution":"2 * abs(x0 - x1) + 3 * min(x0, x1)","test_fitness":-6860.2421632605,"train_fitness":-2900.0093953432}
+{"generation":5,"rank":88,"solution":"2*abs(x0 - x1) + min(x0 * 2, x1 * 2) + min(x0, x1)","test_fitness":-6860.2421632605,"train_fitness":-2900.0093953432}
+{"generation":5,"rank":89,"solution":"abs(x0 - x1) * 2 + min(x0, x1) * 3","test_fitness":-6860.2421632605,"train_fitness":-2900.0093953432}
+{"generation":5,"rank":90,"solution":"2 * abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":5,"rank":91,"solution":"abs((x0 - x1) + min((2 * x0), (3 * x1))","test_fitness":-548.25,"train_fitness":-5062.9929358276}
+{"generation":5,"rank":92,"solution":"abs(x1 - x0) + min(max(x0, x0), max(x0, x1, x1, x1, x1))","test_fitness":-13463.5953251137,"train_fitness":-5650.6633811752}
+{"generation":5,"rank":93,"solution":"abs(x0 - x1) + min(max(2*x0, 3*x1), x1)","test_fitness":-12848.3045333883,"train_fitness":-5657.3654185446}
+{"generation":5,"rank":94,"solution":"2 * abs(x0 - x1) + min(x0 * 2, x1 * 3) + 2 * min(x0, x1)","test_fitness":-26916.6337370398,"train_fitness":-8767.0194348345}
+{"generation":5,"rank":95,"solution":"abs(abs(x0 - x1) + min(x0*2, x1*2))","test_fitness":-2452.3694467376,"train_fitness":-11610.9628335438}
+{"generation":5,"rank":96,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3) + min(x0, x1) * 2","test_fitness":-67519.2894088995,"train_fitness":-13172.6547412701}
+{"generation":5,"rank":97,"solution":"abs(x1 - x0) + min(x0, x1) * 2 + min(x0 * 2, x1 * 3)","test_fitness":-67519.2894088995,"train_fitness":-13172.6547412701}
+{"generation":5,"rank":98,"solution":"abs(x0 - x1) + 2 * min(x0, 3 * x1)","test_fitness":-73041.4676998252,"train_fitness":-17626.5305433638}
+{"generation":5,"rank":99,"solution":"4 * abs(x0 - x1) + min(x0 * 2, x1 * 3) + 2 * min(x0, x1)","test_fitness":-38535.7701623769,"train_fitness":-27375.4436061429}
+{"generation":6,"rank":0,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":1,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":2,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":3,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":4,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":5,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":6,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":7,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":8,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":9,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":10,"solution":"abs(x1 - x0) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":11,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":12,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":13,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":14,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":15,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":16,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":17,"solution":"abs(x0 - x1) + min(x0*2, x1*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":18,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":19,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":20,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":21,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":22,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":23,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":24,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":25,"solution":"abs(x1 - x0) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":26,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":27,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":28,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":29,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":30,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":31,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":32,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":33,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":34,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":35,"solution":"abs(x1 - x0) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":36,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":37,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":38,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":39,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":40,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":41,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":42,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":43,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":44,"solution":"abs(x1 - x0) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":45,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":46,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":47,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":48,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":49,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":50,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":51,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":52,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":53,"solution":"abs(x0 - x1) + min(x0, x1)*2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":54,"solution":"abs(x1 - x0) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":55,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":56,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":57,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":58,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":59,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":60,"solution":"abs(x1 - x0) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":61,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":62,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":63,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":64,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":65,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":66,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":67,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":68,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":69,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":70,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":71,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":72,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":73,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":74,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":75,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":76,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":77,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":78,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":79,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":80,"solution":"abs(x0 - x1) + min(x0*2, x1*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":81,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":6,"rank":82,"solution":"abs(x0 - x1) + min(x0, 2*x1)","test_fitness":-3221.8013986568,"train_fitness":-815.1}
+{"generation":6,"rank":83,"solution":"abs(x1 - x0) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":6,"rank":84,"solution":"abs(x1 - x0) + min(3*x1, 2*x0)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":6,"rank":85,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":6,"rank":86,"solution":"abs(x0 - x1) + min(2*x0, 3*x1)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":6,"rank":87,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 3)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":6,"rank":88,"solution":"abs(x1 - x0) + min(3*x1, 2*x0)","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":6,"rank":89,"solution":"abs(x0 - x1) + min(x0, x1) + 2*min(x0, x1)","test_fitness":-20191.8962257518,"train_fitness":-1916.4616379189}
+{"generation":6,"rank":90,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":6,"rank":91,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":6,"rank":92,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":6,"rank":93,"solution":"abs(x0 * 2 - x1 * 2) + min(x0 * 2, x1 * 2)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":6,"rank":94,"solution":"2 * abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":6,"rank":95,"solution":"abs(x0 - x1) + 4*min(x0, x1)","test_fitness":-47391.592229166,"train_fitness":-7665.8465516756}
+{"generation":6,"rank":96,"solution":"abs(x0 - x1) + 4*min(x0, x1)","test_fitness":-47391.592229166,"train_fitness":-7665.8465516756}
+{"generation":6,"rank":97,"solution":"2*abs(x0-x1) + min(x0,x1)","test_fitness":-24644.0954250115,"train_fitness":-10072.8121418878}
+{"generation":6,"rank":98,"solution":"abs((x0 - x1) * 2) + min(0, 1)","test_fitness":-51529.9039180561,"train_fitness":-19408.5984289168}
+{"generation":6,"rank":99,"solution":"abs((x0 - x1) + 2*min(x0, x1))","test_fitness":-31619.567599856,"train_fitness":-20696.6879545395}
+{"generation":7,"rank":0,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":1,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":2,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":3,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":4,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":5,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":6,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":7,"solution":"abs(x1 - x0) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":8,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":9,"solution":"abs(x0 - x1) + min(x0*2, x1*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":10,"solution":"abs(x0 - x1) + min(2*min(x0, x1), max(x0, x1))","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":11,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":12,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":13,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":14,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":15,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":16,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":17,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":18,"solution":"abs(x0 - x1) + min(x0, x1)*2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":19,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":20,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":21,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":22,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":23,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":24,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":25,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":26,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":27,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":28,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":29,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":30,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":31,"solution":"abs(x0-x1) + min(x0,x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":32,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":33,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":34,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":35,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":36,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":37,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":38,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":39,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":40,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":41,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":42,"solution":"abs(x1 - x0) + min(x0, x1)*2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":43,"solution":"abs(x0 - x1) + min(x0*2, x1*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":44,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":45,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":46,"solution":"abs(x1 - x0) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":47,"solution":"abs(x0 - x1) + min(x0*2, x1*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":48,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":49,"solution":"abs(x0 - x1) + min(x0*2, x1*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":50,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":51,"solution":"abs(x0 - x1) + min(x0*2, x1*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":52,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":53,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":54,"solution":"abs(x0 - x1) + min(x0*2, x1*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":55,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":56,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":57,"solution":"abs(x1 - x0) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":58,"solution":"abs(x1 - x0) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":59,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":60,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":61,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":62,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":63,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":64,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":65,"solution":"min(x0 * 2, x1 * 2) + abs(x0 - x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":66,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":67,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":68,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":69,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":70,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":71,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":72,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":73,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":74,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":75,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":76,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":77,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":78,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":79,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":80,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":81,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":82,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":83,"solution":"abs(x0 - x1) + min(x0, x1)*2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":84,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":7,"rank":85,"solution":"abs(x0 - x1) + 2*min(x0, x1) + 2","test_fitness":-4760.8500977273,"train_fitness":-4.0}
+{"generation":7,"rank":86,"solution":"abs(x0 - x1) + min(abs(x0 - x1), min(x0 * 2, x1 * 3))","test_fitness":-12658.376160625,"train_fitness":-1101.3616379189}
+{"generation":7,"rank":87,"solution":"abs(x0 - x1) + 3 * min(x0, x1)","test_fitness":-20191.8962257518,"train_fitness":-1916.4616379189}
+{"generation":7,"rank":88,"solution":"abs(x0 - x1) + min(3*x0, 3*x1)","test_fitness":-20191.8962257518,"train_fitness":-1916.4616379189}
+{"generation":7,"rank":89,"solution":"abs(x0 - x1) + min(x0, x1) * max(0, 1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":7,"rank":90,"solution":"abs(x0 - x1) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":7,"rank":91,"solution":"abs(x1 - x0) + min(2 * x0, 2 * x1) + abs(x1 - x0) + min(x0, 1)","test_fitness":-8530.8483036666,"train_fitness":-3586.0093737446}
+{"generation":7,"rank":92,"solution":"abs(x0 - x1) + min(x0, x1) + abs(x0 - x1) + min(x0, x1)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":7,"rank":93,"solution":"abs(x1 - x0) + min(2*x0, 2*x1) + abs(x1 - x0) + 2*min(x0, x1)","test_fitness":-15962.197394554,"train_fitness":-5062.9929358276}
+{"generation":7,"rank":94,"solution":"abs(x0 - x1) + min(2x0, 2x1)","test_fitness":-548.25,"train_fitness":-5062.9929358276}
+{"generation":7,"rank":95,"solution":"2 * abs(x0 - x1) + min(x0, 2 * x1)","test_fitness":-16912.3680431593,"train_fitness":-7168.6688133813}
+{"generation":7,"rank":96,"solution":"abs(x0 - x1) + 4*min(x0, x1)","test_fitness":-47391.592229166,"train_fitness":-7665.8465516756}
+{"generation":7,"rank":97,"solution":"abs(x0 - x1) * 2 + min(x0, x1)","test_fitness":-24644.0954250115,"train_fitness":-10072.8121418878}
+{"generation":7,"rank":98,"solution":"abs(x1 - x0) + abs(x0 - x1) + min(x0, x1)","test_fitness":-24644.0954250115,"train_fitness":-10072.8121418878}
+{"generation":7,"rank":99,"solution":"2*abs(x0 - x1) + min(6*x0, 9*x1)","test_fitness":-159075.671781951,"train_fitness":-51824.3188238706}
+{"generation":8,"rank":0,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":1,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":2,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":3,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":4,"solution":"abs(x1 - x0) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":5,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":6,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":7,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":8,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":9,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":10,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":11,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":12,"solution":"abs(x1 - x0) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":13,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":14,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":15,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":16,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":17,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":18,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":19,"solution":"abs(x1 - x0) + min(x1, x0) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":20,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":21,"solution":"abs(x0 - x1) + min(x0*2, x1*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":22,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":23,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":24,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":25,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":26,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":27,"solution":"abs(x1 - x0) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":28,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":29,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":30,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":31,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":32,"solution":"abs(x0-x1) + min(x0,x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":33,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":34,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":35,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":36,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":37,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":38,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":39,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":40,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":41,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":42,"solution":"abs(x1 - x0) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":43,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":44,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":45,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":46,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":47,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":48,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":49,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":50,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":51,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":52,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":53,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":54,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":55,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":56,"solution":"abs(x1 - x0) + 2 * min(x1, x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":57,"solution":"abs(x0 - x1) + min(x0, x1)*2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":58,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":59,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":60,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":61,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":62,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":63,"solution":"abs(x1 - x0) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":64,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":65,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":66,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":67,"solution":"abs(x1 - x0) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":68,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":69,"solution":"abs(x0 - x1) + min(x0*2, x1*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":70,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":71,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":72,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":73,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":74,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":75,"solution":"abs(x1 - x0) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":76,"solution":"abs(x0 - x1) + min(2*min(x0, x1), max(x0, x1))","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":77,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":8,"rank":78,"solution":"abs(x0 - x1) + min(x0, x1 * 2)","test_fitness":-3221.8013986568,"train_fitness":-815.1}
+{"generation":8,"rank":79,"solution":"abs(x0 - x1) + 3*min(x0, x1)","test_fitness":-20191.8962257518,"train_fitness":-1916.4616379189}
+{"generation":8,"rank":80,"solution":"abs(x0 - x1) + min(x0, x1) * 3","test_fitness":-20191.8962257518,"train_fitness":-1916.4616379189}
+{"generation":8,"rank":81,"solution":"abs(x1 - x0) + min(x1, x0)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":8,"rank":82,"solution":"abs(x1 - x0) + min(x0, x1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":8,"rank":83,"solution":"abs(x0 - x1) + min(x0, x1) + min(0, 1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":8,"rank":84,"solution":"abs(x0 - x1) * 2 + min(x0, x1) * 3","test_fitness":-6860.2421632605,"train_fitness":-2900.0093953432}
+{"generation":8,"rank":85,"solution":"abs(x0 - x1) + min(4*x0, 2*x1)","test_fitness":-25822.3615940373,"train_fitness":-3504.4635483823}
+{"generation":8,"rank":86,"solution":"abs(x0 - x1) + 2 * min(2*x0, x1)","test_fitness":-25822.3615940373,"train_fitness":-3504.4635483823}
+{"generation":8,"rank":87,"solution":"2 * abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":8,"rank":88,"solution":"2*abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":8,"rank":89,"solution":"abs(x0 * 2 - x1 * 2) + min(x0 * 2, x1 * 2)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":8,"rank":90,"solution":"abs(x0 - x1) * 2 + min(x0, x1) * 2","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":8,"rank":91,"solution":"2 * (abs(x0 - x1) + min(x0, x1))","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":8,"rank":92,"solution":"abs((x0 + x1) - min(x0, x1))","test_fitness":-1520.3554931908,"train_fitness":-4953.0390546984}
+{"generation":8,"rank":93,"solution":"abs(x0 - x1) + 2 * min(abs(x0 - x1), x0) + min(x0, x1)","test_fitness":-22190.9080735151,"train_fitness":-6036.5784674185}
+{"generation":8,"rank":94,"solution":"abs(x0 - x1) + 4*min(x0, x1)","test_fitness":-47391.592229166,"train_fitness":-7665.8465516756}
+{"generation":8,"rank":95,"solution":"abs(x0 - x1) + min(x0, x1) * 4","test_fitness":-47391.592229166,"train_fitness":-7665.8465516756}
+{"generation":8,"rank":96,"solution":"2*(abs(x0 - x1)) + min(x0, x1)","test_fitness":-24644.0954250115,"train_fitness":-10072.8121418878}
+{"generation":8,"rank":97,"solution":"3 * abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-45461.7774727278,"train_fitness":-18279.7965227864}
+{"generation":8,"rank":98,"solution":"abs(x0 - x1) + min(abs(x0 - x1), x0) + 2 * min(x0, 3 * x1)","test_fitness":-69803.8897859445,"train_fitness":-21333.3881151615}
+{"generation":8,"rank":99,"solution":"abs(x0 * min(1, x1) + max(0, x1) - x0) + min(x0, x1) * 2","test_fitness":-10009850.026757624,"train_fitness":-1001002.9435188195}
+{"generation":9,"rank":0,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":1,"solution":"min(x0, x1) * 2 + abs(x0 - x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":2,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":3,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":4,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":5,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":6,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":7,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":8,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":9,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":10,"solution":"abs(x1 - x0) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":11,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":12,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":13,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":14,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":15,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":16,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":17,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":18,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":19,"solution":"abs(x1 - x0) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":20,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":21,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":22,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":23,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":24,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":25,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":26,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":27,"solution":"abs(x1 - x0) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":28,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":29,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":30,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":31,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":32,"solution":"abs(x1 - x0) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":33,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":34,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":35,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":36,"solution":"abs(x1 - x0) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":37,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":38,"solution":"abs((x0 - x1)) + min((2 * x0), (2 * x1))","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":39,"solution":"abs(x1 - x0) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":40,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":41,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":42,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":43,"solution":"abs(x0 - x1) + min(2 * x0, 2 * x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":44,"solution":"abs(x0 - x1) + min(x0*2, x1*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":45,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":46,"solution":"abs(x0 - x1) + min(x0*2, x1*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":47,"solution":"abs(x1 - x0) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":48,"solution":"abs(x0 - x1) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":49,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":50,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":51,"solution":"abs(x1 - x0) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":52,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":53,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":54,"solution":"abs(x1 - x0) + min(x0, x1) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":55,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":56,"solution":"abs(x0 - x1) + min(x0 * 2, x1 * 2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":57,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":58,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":59,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":60,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":61,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":62,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":63,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":64,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":65,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":66,"solution":"abs(x1 - x0) + min(x1*2, x0*2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":67,"solution":"abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":68,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":69,"solution":"abs(x1 - x0) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":70,"solution":"abs(x0 - x1) + min(x0, x1) + min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":71,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":72,"solution":"abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":73,"solution":"abs(x1 - x0) + min(2*x1, 2*x0)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":74,"solution":"abs(x0 - x1) + min(2*min(x0,x1),2)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":75,"solution":"abs(x1 - x0) + 2*min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":76,"solution":"abs(x0 - x1) + min(x1, x0) * 2","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":77,"solution":"abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-4988.1214637836,"train_fitness":-2.92825168e-28}
+{"generation":9,"rank":78,"solution":"abs(x0 - x1) + min(x0, 2*x1)","test_fitness":-3221.8013986568,"train_fitness":-815.1}
+{"generation":9,"rank":79,"solution":"abs(x0 - x1) + min(x0, x1) * 3","test_fitness":-20191.8962257518,"train_fitness":-1916.4616379189}
+{"generation":9,"rank":80,"solution":"abs(x0 - x1) + min(x0 * 3, x1 * 3)","test_fitness":-20191.8962257518,"train_fitness":-1916.4616379189}
+{"generation":9,"rank":81,"solution":"abs(x0 - x1) + 3*min(x0, x1)","test_fitness":-20191.8962257518,"train_fitness":-1916.4616379189}
+{"generation":9,"rank":82,"solution":"abs(x1 - x0) + min(x0, x1) + min(0, 1)","test_fitness":-1780.2679432615,"train_fitness":-1916.4616379189}
+{"generation":9,"rank":83,"solution":"abs(x1 * 0 - x0 * 1) + min(x0 * 2, x1 * 2)","test_fitness":-14235.7538234232,"train_fitness":-2159.7995080554}
+{"generation":9,"rank":84,"solution":"2*abs(x0 - x1) + 3*min(x0, x1)","test_fitness":-6860.2421632605,"train_fitness":-2900.0093953432}
+{"generation":9,"rank":85,"solution":"2*abs(x0 - 1) + min(2*min(x0, x1), max(x0, x1))","test_fitness":-6127.5888300474,"train_fitness":-3872.562108615}
+{"generation":9,"rank":86,"solution":"2 * abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":9,"rank":87,"solution":"2 * abs(x0 - x1) + 2 * min(x0, x1)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":9,"rank":88,"solution":"2*abs(x0 - x1) + min(2*x0, 2*x1)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":9,"rank":89,"solution":"2*abs(x0 - x1) + 2*min(x0, x1)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":9,"rank":90,"solution":"abs(x0 - x1) + 2 * min(x0, x1) + abs(x0 - x1)","test_fitness":-9754.208173413,"train_fitness":-4569.9491306966}
+{"generation":9,"rank":91,"solution":"2 * abs(x0 - x1) + 4 * min(x0, x1)","test_fitness":-15962.197394554,"train_fitness":-5062.9929358276}
+{"generation":9,"rank":92,"solution":"abs(x0 - x1) + 3*min(x0, x1) + max(2*min(x0, x1), x0, x1)","test_fitness":-15962.197394554,"train_fitness":-5062.9929358276}
+{"generation":9,"rank":93,"solution":"abs(1 - 0) + min(2*1, 2*0)","test_fitness":-506.6499938965,"train_fitness":-5096.2850114084}
+{"generation":9,"rank":94,"solution":"abs(x0 - x1) + min(x0 * 4, x1 * 4)","test_fitness":-47391.592229166,"train_fitness":-7665.8465516756}
+{"generation":9,"rank":95,"solution":"2*abs(x0 - x1) + min(0, x0) + min(0, x1)","test_fitness":-24403.9278578942,"train_fitness":-8942.5743073556}
+{"generation":9,"rank":96,"solution":"abs(x0 - x1) + 4*min(x0, x1) + abs(x0) + min(1, x1) - max(0, x1)","test_fitness":-51423.4610399758,"train_fitness":-10509.3976917293}
+{"generation":9,"rank":97,"solution":"abs(x1 - x0) + max(2*x0, 2*x1)","test_fitness":-45461.7774727278,"train_fitness":-18279.7965227864}
+{"generation":9,"rank":98,"solution":"abs((x0 - x1) + min(x0, x1) * 2)","test_fitness":-31619.567599856,"train_fitness":-20696.6879545395}
+{"generation":9,"rank":99,"solution":"abs((x0-x1) + min(x0,x1) * 2)","test_fitness":-31619.567599856,"train_fitness":-20696.6879545395}

@@ -41,7 +41,7 @@ max_depth: 12
 elite_size: 1
 
 # Specify the number of generations you would like to generate
-generations: 20
+generations: 10
 
 # Specify the number of individual solutions that are compared when
 # determining which solutions are inserted into next generation of the
@@ -56,3 +56,6 @@ crossover_probability: 0.5
 
 # Probability of individual solutions to be varied by the mutation operator
 mutation_probability: 0.9
+
+# Specify whether genetic operators should be done in batch or not
+batch: True

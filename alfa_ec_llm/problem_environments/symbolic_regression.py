@@ -387,6 +387,15 @@ Provide no additional text in response. Format output in JSON as {{"expression":
 """.format(
             constraints=self.constraints
         )
+
+        self.BATCH_INDIVIDUAL_GENERATION_PROMPT = """
+Generate {population_size} mathematical expressions. Use only the listed symbols and constants {constraints}.
+
+Provide no additional text in response. Format output in JSON as {{"expressions": ["<new_expression1>","<new_expression2>",]}}
+
+You must return {population_size} expressions.
+"""
+
         self.REPHRASE_MUTATION_PROMPT = """
 {n_samples} examples of mathematical expressions are:
 {samples}
@@ -395,6 +404,14 @@ Rephrase the mathematical expression {expression} into a new mathematical expres
 
 Provide no additional text in response. Format output in JSON as {{"new_expression": "<new expression>"}}
 """
+        self.REPHRASE_BATCH_MUTATION_PROMPT = """
+{n_samples} examples of mathematical expressions are:
+{samples}
+
+Rephrase the mathematical expressions {expressions} into new mathematical expressions. Use the listed symbols {constraints}.
+
+Provide no additional text in response. Format output in JSON as {{"expressions": ["<new_expression1>","<new_expression2>",...]}}
+"""
         self.CROSSOVER_PROMPT = """
 {n_samples} examples of mathematical expressions are:
 {samples}
@@ -402,6 +419,18 @@ Provide no additional text in response. Format output in JSON as {{"new_expressi
 Recombine the mathematical expressions {expression} and create {n_children} new expressions from the terms. Use only the existing expressions when creating the new expressions.
 
 Provide no additional text in response. Format output in JSON as {{"expressions": ["<expression>"]}}    
+"""
+        self.BATCH_CROSSOVER_PROMPT = """
+{n_samples} examples of mathematical expressions are:
+{samples}
+
+Consider the pairs of mathematical expressions {expressions}. For each pair recombine the expressions to create a pair of new expressions.
+
+Use only the existing expressions when creating the new expressions. 
+
+Return all the news pairs of expressions. You should have the same number of pairs as the input pairs.
+
+Provide no additional text in response. Format output in JSON as {{"expressions": [["<new_expression1>", "<new_expression2>"],["<new_expression3>", "<new_expression4>"],...]}}   
 """
 
     def get_context(
@@ -416,6 +445,12 @@ Provide no additional text in response. Format output in JSON as {{"expressions"
             n_samples = 0
 
         return sample_input, n_samples
+
+    def form_prompt_batch_individual_generation(
+        self, population_size: int, prompt_inputs: Optional[Dict[str, str]] = None
+    ) -> str:
+        prompt = self.BATCH_INDIVIDUAL_GENERATION_PROMPT.format(constraints=self.constraints, population_size=population_size)
+        return prompt
 
     def form_prompt_individual_generation(
         self, prompt_inputs: Optional[Dict[str, str]] = None
@@ -433,6 +468,27 @@ Provide no additional text in response. Format output in JSON as {{"expressions"
             )
 
         return phenotype
+    
+    def check_response_batch_individual_generation(self, population_size, response: str) -> List[str]:
+        
+        """
+        Checks the payload of the response and extracts a list of phenotypes.
+
+        Args:
+            response (str): The JSON string returned by the LLM.
+
+        Returns:
+            List[str]: A list of extracted phenotypes.
+        """
+        try:
+            # Parse the JSON response to extract the list of phenotypes
+            phenotypes = json.loads(response)["expressions"]
+        except (json.decoder.JSONDecodeError, KeyError, TypeError) as e:
+            # Log the error 
+            logging.error(f"{e} when formatting response for individual generation: {response}")
+            phenotypes = None
+            
+        return phenotypes
 
     
     @staticmethod
@@ -479,6 +535,59 @@ Provide no additional text in response. Format output in JSON as {{"expressions"
             len(diff) == 0
         ), f"{len(diff)} tokens difference. {diff}. From {child_tokens} and {tokens}"
         return phenotype
+    
+    def check_response_batch_crossover(self, response: str, parent_pairs: List[Tuple[Individual, Individual]]) -> List[Tuple[str, str]]:
+        """
+        Checks the payload of the response and extracts pairs of expressions.
+
+        Args:
+            response (str): The JSON string returned by the LLM.
+            parent_pairs (List[Tuple[Individual, Individual]]): The original parent pairs (fallback in case of errors).
+
+        Returns:
+            List[Tuple[str, str]]: A list of pairs of new expressions.
+        """
+        try:
+            # Parse the JSON response to extract the list of pairs of new expressions
+            new_expression_pairs = json.loads(response)["expressions"]
+        except (json.decoder.JSONDecodeError, KeyError, TypeError) as e:
+            # Log the error and return the original parents' phenotypes as fallback
+            logging.error(f"{e} when formatting response for crossover: {response}")
+            new_expression_pairs = [
+                (parent1.phenotype, parent2.phenotype) for parent1, parent2 in parent_pairs
+            ]
+
+        # Ensure the number of pairs matches the number of parent pairs
+        assert len(new_expression_pairs) == len(parent_pairs), (
+            f"Expected {len(parent_pairs)} pairs, but got {len(new_expression_pairs)}"
+        )
+
+        # Validate tokens for each pair
+        for (parent1, parent2), (child1, child2) in zip(parent_pairs, new_expression_pairs):
+            parent_tokens = set()
+            for parent in [parent1.phenotype, parent2.phenotype]:
+                parent_str = parent.replace("(", "").replace(")", "")
+                parent_tokens.update(
+                    SymbolicRegressionGPPlusSomeLLMConstrainedFewShot.get_tokens(
+                        parent_str, self.symbols["functions"]
+                    )
+                )
+
+            child_tokens = set()
+            for child in [child1, child2]:
+                child_str = child.replace("(", "").replace(")", "")
+                child_tokens.update(
+                    SymbolicRegressionGPPlusSomeLLMConstrainedFewShot.get_tokens(
+                        child_str, self.symbols["functions"]
+                    )
+                )
+
+            diff = parent_tokens.difference(child_tokens)
+            assert (
+                len(diff) == 0
+            ), f"{len(diff)} tokens difference. {diff}. From {child_tokens} and {parent_tokens}"
+
+        return new_expression_pairs
 
     def check_response_rephrase_mutation(self, response: str, expression: str) -> str:
         try:
@@ -500,6 +609,27 @@ Provide no additional text in response. Format output in JSON as {{"expressions"
             )
 
         return phenotype
+    
+    def check_response_rephrase_batch_mutation(self, response: str, expressions: List[str]) -> List[str]:
+        """
+        Checks the payload of the response and extracts all expressions.
+
+        Args:
+            response (str): The JSON string returned by the LLM.
+            expressions (List[str]): The original expressions (fallback in case of errors).
+
+        Returns:
+            List[str]: A list of extracted expressions.
+        """
+        try:
+            # Parse the JSON response to extract the list of new expressions
+            new_expressions = json.loads(response)["expressions"]
+        except (json.decoder.JSONDecodeError, KeyError, TypeError) as e:
+            # Log the error and return the original expressions as a fallback
+            logging.error(f"{e} when formatting response for batch rephrase mutation: {response}")
+            new_expressions = expressions
+
+        return new_expressions
 
     def form_prompt_rephrase_mutation(
         self, expression: str, samples: Optional[List[Any]] = None
@@ -507,6 +637,18 @@ Provide no additional text in response. Format output in JSON as {{"expressions"
         context, n_samples = self.get_context(samples, self.n_shots)
         prompt = self.REPHRASE_MUTATION_PROMPT.format(
             expression=expression,
+            constraints=self.constraints,
+            samples=context,
+            n_samples=n_samples,
+        )
+        return prompt
+    
+    def form_prompt_rephrase_batch_mutation(
+        self, expressions: list, samples: Optional[List[Any]] = None
+    ) -> str:
+        context, n_samples = self.get_context(samples, self.n_shots)
+        prompt = self.REPHRASE_BATCH_MUTATION_PROMPT.format(
+            expressions=expressions,
             constraints=self.constraints,
             samples=context,
             n_samples=n_samples,
@@ -520,6 +662,19 @@ Provide no additional text in response. Format output in JSON as {{"expressions"
         expression = " and ".join(expressions)
         prompt = self.CROSSOVER_PROMPT.format(
             expression=expression,
+            constraints=self.constraints,
+            samples=context,
+            n_samples=n_samples,
+            n_children=len(expressions),
+        )
+        return prompt
+
+    def form_prompt_batch_crossover(
+        self, expressions: str, samples: Optional[List[Any]] = None
+    ) -> str:
+        context, n_samples = self.get_context(samples, self.n_shots)
+        prompt = self.BATCH_CROSSOVER_PROMPT.format(
+            expressions=expressions,
             constraints=self.constraints,
             samples=context,
             n_samples=n_samples,
