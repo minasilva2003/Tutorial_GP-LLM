@@ -284,6 +284,7 @@ class TutorialLLMGPMuXo(EvolutionaryAlgorithm):
         logging.info(f"Setting random seed: {param['seed']} {random.random():.5f}")
         fitness_function = get_fitness_function(param["fitness_function"])
 
+        #local deepseek model
         llm_interface = DeepSeekInterface()
         param["llm_interface"] = llm_interface
         generation_history = []
