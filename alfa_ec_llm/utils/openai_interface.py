@@ -5,6 +5,7 @@ import time
 
 import openai
 from openai import OpenAI
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 """
     An interface to OpenAI models to predict text and provide an interactive chat interface.    
@@ -96,5 +97,63 @@ class OpenAIInterface:
             "content": content,
             "n_prompt_tokens": n_prompt_tokens,
             "n_completion_tokens": n_completion_tokens,
+            "response_time": response_time,
+        }
+
+
+class DeepSeekInterface:
+    def __init__(self, model_name="deepseek-ai/deepseek-coder-1.3b-base"):
+        """
+        Initializes the DeepSeek model and tokenizer.
+        """
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.model = AutoModelForCausalLM.from_pretrained(
+            model_name, torch_dtype="auto", device_map="auto"
+        )
+        print("Created deepseek interface")
+
+    @retry_with_exponential_backoff
+    def predict_text_logged(self, prompt, temp=0.8, max_new_tokens=100):
+        """
+        Queries the DeepSeek model given the prompt and returns the prediction.
+
+        Args:
+            prompt (str): The input prompt to the model.
+            temp (float): The temperature for sampling.
+            max_new_tokens (int): The maximum number of new tokens to generate.
+
+        Returns:
+            dict: A dictionary containing the prompt, generated content, and metadata.
+        """
+        start_query = time.perf_counter()
+
+        # Tokenize the input prompt
+        inputs = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
+
+        # Generate the response
+        outputs = self.model.generate(
+            **inputs, max_new_tokens=max_new_tokens, temperature=temp
+        )
+
+        # Decode the generated tokens
+        content = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+        # Extract the JSON part of the response
+        start_idx = content.rfind("{")
+        end_idx = content.rfind("}") + 1
+        if start_idx == -1 or end_idx == -1:
+            raise ValueError("No JSON object found in response")
+
+        content = content[start_idx:end_idx]
+
+        end_query = time.perf_counter()
+        response_time = end_query - start_query
+
+        # Return the response and metadata
+        return {
+            "prompt": prompt,
+            "content": content,
+            "n_prompt_tokens": len(inputs["input_ids"][0]),
+            "n_completion_tokens": len(outputs[0]) - len(inputs["input_ids"][0]),
             "response_time": response_time,
         }

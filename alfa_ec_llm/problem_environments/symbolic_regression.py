@@ -460,6 +460,7 @@ Provide no additional text in response. Format output in JSON as {{"expressions"
 
     def check_response_individual_generation(self, response: str) -> str:
         try:
+            print(f"THIS IS THE RESPONSE:\n____________\n{response}\n________________")
             phenotype = json.loads(response)["expression"]
         except TypeError as e:
             phenotype = self.DEFAULT_PHENOTYPE

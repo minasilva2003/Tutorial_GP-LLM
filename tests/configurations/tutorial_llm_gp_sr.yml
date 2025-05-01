@@ -32,7 +32,7 @@ fitness_function:
 
 # Specify the number of individuals(population) make sure the
 # population size is GREATER than the number of inputs
-population_size: 100
+population_size: 5
 
 # Specify the max depth of the tree
 max_depth: 12
@@ -58,4 +58,4 @@ crossover_probability: 0.5
 mutation_probability: 0.9
 
 # Specify whether genetic operators should be done in batch or not
-batch: True
+batch: False

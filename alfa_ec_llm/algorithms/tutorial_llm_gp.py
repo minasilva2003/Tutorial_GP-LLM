@@ -6,7 +6,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from alfa_ec_llm.algorithms.evolutionary_algorithm import (
     EvolutionaryAlgorithm, FitnessFunction, Individual, Population)
-from alfa_ec_llm.utils.openai_interface import OpenAIInterface
+from alfa_ec_llm.utils.openai_interface import OpenAIInterface, DeepSeekInterface
 from alfa_ec_llm.utils.utils import (get_fitness_function,
                                      write_run_output_gp_plus_llm)
 
@@ -24,7 +24,7 @@ class TutorialLLMGPMuXo(EvolutionaryAlgorithm):
         self,
         individual: Individual,
         fitness_function: FitnessFunction,
-        llm_interface: OpenAIInterface,
+        llm_interface: DeepSeekInterface,
         generation_history: List[Tuple[str, str]],
         mutation_probability: float,
         samples: Optional[List[Any]] = None,
@@ -52,7 +52,7 @@ class TutorialLLMGPMuXo(EvolutionaryAlgorithm):
         self,
         individual_list: List[Individual],
         fitness_function: FitnessFunction,
-        llm_interface: OpenAIInterface,
+        llm_interface: DeepSeekInterface,
         generation_history: List[Tuple[str, str]],
         mutation_probability: float,
         samples: Optional[List[Any]] = None,
@@ -103,7 +103,7 @@ class TutorialLLMGPMuXo(EvolutionaryAlgorithm):
         self,
         parent_pairs,
         fitness_function: FitnessFunction,
-        llm_interface: OpenAIInterface,
+        llm_interface: DeepSeekInterface,
         generation_history: List[Tuple[str, str]],
         crossover_probability: float,
         samples: Optional[List[Any]] = None,
@@ -167,7 +167,7 @@ class TutorialLLMGPMuXo(EvolutionaryAlgorithm):
         self,
         parents: List[Individual],
         fitness_function: FitnessFunction,
-        llm_interface: OpenAIInterface,
+        llm_interface: DeepSeekInterface,
         generation_history: List[Tuple[str, str]],
         crossover_probability: float,
         samples: Optional[List[Any]] = None,
@@ -208,7 +208,7 @@ class TutorialLLMGPMuXo(EvolutionaryAlgorithm):
         self,
         fitness_function: FitnessFunction,
         param: Dict[str, Any],
-        llm_interface: OpenAIInterface,
+        llm_interface: DeepSeekInterface,
         generation_history: List[Tuple[str, str]],
     ) -> List[Individual]:
         """
@@ -248,7 +248,7 @@ class TutorialLLMGPMuXo(EvolutionaryAlgorithm):
         self,
         fitness_function: FitnessFunction,
         param: Dict[str, Any],
-        llm_interface: OpenAIInterface,
+        llm_interface: DeepSeekInterface,
         generation_history: List[Tuple[str, str]],
     ) -> List[Individual]:
         """
@@ -284,7 +284,7 @@ class TutorialLLMGPMuXo(EvolutionaryAlgorithm):
         logging.info(f"Setting random seed: {param['seed']} {random.random():.5f}")
         fitness_function = get_fitness_function(param["fitness_function"])
 
-        llm_interface = OpenAIInterface()
+        llm_interface = DeepSeekInterface()
         param["llm_interface"] = llm_interface
         generation_history = []
         param["generation_history"] = generation_history
