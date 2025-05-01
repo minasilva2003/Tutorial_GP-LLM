@@ -6,6 +6,7 @@ import time
 import openai
 from openai import OpenAI
 from transformers import AutoTokenizer, AutoModelForCausalLM
+from huggingface_hub import snapshot_download
 
 """
     An interface to OpenAI models to predict text and provide an interactive chat interface.    
@@ -106,9 +107,10 @@ class DeepSeekInterface:
         """
         Initializes the DeepSeek model and tokenizer.
         """
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.model_path = snapshot_download("deepseek-ai/deepseek-coder-1.3b-base")
+        self.tokenizer = AutoTokenizer.from_pretrained(self.model_path)
         self.model = AutoModelForCausalLM.from_pretrained(
-            model_name, torch_dtype="auto", device_map="auto"
+            self.model_path, torch_dtype="auto", device_map="auto", offload_folder="offload_folder"
         )
         print("Created deepseek interface")
 
