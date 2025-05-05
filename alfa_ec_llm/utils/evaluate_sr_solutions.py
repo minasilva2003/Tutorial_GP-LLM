@@ -100,7 +100,7 @@ def main(args: List[str]) -> pd.DataFrame:
     df = pd.DataFrame(results)
     out_name = f"holdout_{os.path.basename(params.fitness_file)}l"
     out_file = os.path.join(out_path, out_name)
-    df.to_json(out_file, orient="records", lines=True)
+    #df.to_json(out_file, orient="records", lines=True)
     logging.info(f"Analysed results in: {out_file}")
     return df
 

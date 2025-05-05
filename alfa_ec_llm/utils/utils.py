@@ -79,7 +79,7 @@ def write_run_output(
 ) -> None:
     """Write run stats to files."""
     assert len(param["cache"]) > 0
-    print_cache_stats(generation, param)
+    #print_cache_stats(generation, param)
     out_file_name = get_out_file_name("alfa_ec_llm", param)
     _out_file_name = f"{out_file_name}_settings.json"
     with open(_out_file_name, "w", encoding="utf-8") as out_file:

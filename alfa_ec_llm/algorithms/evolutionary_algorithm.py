@@ -125,11 +125,11 @@ class EvolutionaryAlgorithm:
             individuals[0],
         )
 
-        logging.info(info)
-
-        stats["fitness_values"].append(fitness_values)
-        stats["length_values"].append(length_values)
-        stats["solution_values"].append([_.phenotype for _ in individuals])
+        #logging.info(info)
+        if generation == 299 or generation == 300:
+            stats["fitness_values"].append(fitness_values)
+            stats["length_values"].append(length_values)
+            stats["solution_values"].append([_.phenotype for _ in individuals])
 
     def tournament_selection(
         self, population: List[Individual], population_size: int, tournament_size: int

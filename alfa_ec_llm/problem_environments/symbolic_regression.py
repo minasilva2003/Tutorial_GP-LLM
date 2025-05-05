@@ -94,7 +94,7 @@ class SymbolicRegressionGP:
             cache[key] = fitness
             df = pd.DataFrame(data)
             out_path = os.path.join(self.outdir, "exemplar_calc.jsonl")
-            df.to_json(out_path, orient="records", lines=True)
+            #df.to_json(out_path, orient="records", lines=True)
 
         return fitness
 
